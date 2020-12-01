@@ -33,5 +33,12 @@ namespace VSGitÜbung
             var actual = p0;
             Assert.Equal(expected, actual);
         }
+        
+        //multiply with Outline
+        [When(@"the two numbers are multiplied")]
+        public void WhenTheTwoNumbersAreMultiplied()
+        {
+            sum = first * second;   
+        }
     }
 }
