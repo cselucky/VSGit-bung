@@ -34,9 +34,6 @@ namespace VSGitÜbung
         [Then(@"(.*) is in my device list")]
         public void ThenIsInMyDeviceList(string p0)
         {
-            /*var expected = devs.Contains(dev).ToString();
-            var actual = p0;
-            Assert.Equal(expected, actual);*/
             devs.Contains(dev);
             
         }
